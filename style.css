@@ -1,0 +1,227 @@
+/* Browser Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Universal Styles */
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: normal;
+}
+
+body {
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    color: seashell;
+    text-align: center;
+    opacity: 0.9;
+}
+
+h2 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+}
+
+h4 {
+    color: #ffecdb;
+    font-weight: 300;
+}
+
+
+/* Header Styles */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    z-index: 2;
+    background-color: black;
+    border-bottom: 2px solid #ffecdb;
+}
+
+.logo {
+    display: inline-flex;
+    flex-direction: row;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navigation li {
+    display: inline-flex;
+    list-style: none;
+    padding-right: 25px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: seashell;
+}
+
+.navigation a:hover {
+    opacity: 1;
+    color: #ffecdb;
+}
+
+
+/* Main Content Containers */
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+
+
+/* Mission Statement Styles*/
+
+.jumbotron {
+    height: 700px;
+    width: 100%;
+    background-image: url('./img-mission-background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+.mission-banner {
+    background-color: black;
+    align-items: center;
+    position: relative;
+    top: 300px;
+    padding: 10px;
+}
+
+
+/* Tea of the Month Styles*/
+
+.featured {
+    width: 1000px;
+    height: auto;
+    justify-content: center;
+}
+
+.steeping {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    line-height: 2;
+}
+
+.spacer {
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.row {
+    display: inline-flex;
+    flex-direction: row wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.choices {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.tea {
+    margin: 10px;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea figcaption {
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+/* Locations Styles*/
+
+.locations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 500px;
+    background-image: url('./img-locations-background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.location-header {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.address {
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 300px;
+    height: auto;
+    position: relative;
+    opacity: 1;
+    text-align: center;
+    background-color: black;
+    margin: 0 20px;
+    justify-content: space-around;
+}
+
+.address h3,
+p {
+    align-items: center;
+    line-height: 3;
+}
+
+.address>p {
+    color: #ffecdb;
+}
+
+
+/* Footer Styles*/
+
+.contact {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    line-height: 2;
+}
+
+.copyright {
+    margin: 20px;
+    text-align: left;
+}
