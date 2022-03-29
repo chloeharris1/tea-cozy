@@ -7,7 +7,7 @@ A HTML and CSS project for a fictional tea shop website using a Flexbox layout.
 
 ## Snapshot
 
-![screenshot](./tea-cozy.png)
+![screenshot](./images/tea-cozy.png)
 
 
 ## Questions 
